@@ -13,6 +13,8 @@ const MyApp: AppType = ({ Component, pageProps }) => {
     <ChakraProvider>
       {/* <Navbar /> */}
       <Layout>
+
+     
         <main className={inter.className}>
           <Component {...pageProps} />
         </main>

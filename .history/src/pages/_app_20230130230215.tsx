@@ -11,8 +11,7 @@ const inter = Itim({ weight: "400", subsets: ["latin"] });
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
     <ChakraProvider>
-      {/* <Navbar /> */}
-      <Layout>
+      
         <main className={inter.className}>
           <Component {...pageProps} />
         </main>

@@ -154,7 +154,7 @@ const Test = () => {
           </Card>
         </div>
 
-        <div className="grid  grid-flow-row justify-center gap-4 md:grid-flow-col ">
+        <div className=" wrap grid-flow-row gap-4">
           <Card maxW="lg" m={3}>
             <Stack mt="6" spacing="3">
               <Heading textAlign={"center"} size="md">
