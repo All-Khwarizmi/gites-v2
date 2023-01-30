@@ -4,7 +4,7 @@ import {
   BreadcrumbLink,
   BreadcrumbSeparator,
 } from '@chakra-ui/react'
- 
+
 
 const Layout= ({ children }: React.PropsWithChildren<{}>) => {
     return (
