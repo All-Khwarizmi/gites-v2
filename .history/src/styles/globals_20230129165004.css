@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+:root {
+    --colorOne: #ffb965;
+    --colorTwo: #d99feb;
+    font-family: Itim,  ;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Itim";
+}
+
+
+.test {
+   
+   width: 100%;
+  
+}
+
+#myVideo {
+object-fit: cover;
+    
+    min-height: 100vh;
+    position: relative;
+    z-index: -1;
+   bottom: 0;
+   right: 0;
+}
+
+.section {
+    background-image: linear-gradient(27deg, var(--colorOne) 0%, var(--colorTwo) 100%)  ;
+    margin-top: 0;
+}
+
+.card-1 {
+    background-color: inherit;
+    padding: 3rem;
+    width: 100%;
+}
+.nav {
+    position: fixed;
+}
+ .welcome-text {
+    font-family: "Indie Flower";
+ }
