@@ -1,0 +1,8 @@
+@import "mixins";
+
+
+@mixin navbar {
+    .nav {
+        background-color: red;
+    }
+}
