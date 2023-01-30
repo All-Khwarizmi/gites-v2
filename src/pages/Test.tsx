@@ -15,7 +15,7 @@ import {
 } from "@chakra-ui/react";
 import Carousel from "../components/Carousel";
 import { Component, useEffect, useRef, useState } from "react";
-
+import Localisation from "../components/Localisation";
 const Test = () => {
   const slidesPalmier = [
     {
@@ -121,7 +121,16 @@ const Test = () => {
   return (
     <div className="test">
       <section className="test">
-        <video src={"/Mon film.mov"} autoPlay muted loop id="myVideo" />
+        <video
+          autoPlay
+          playsInline
+          muted
+          loop
+          id="myVideo"
+          poster="/Gîte Kawan/1"
+        >
+          <source src={"/Mon film.mp4"} type="video/mp4" />
+        </video>
       </section>
       <section className="section ">
         <div className="card-1 flex-column flex justify-center">
@@ -198,6 +207,7 @@ const Test = () => {
             </Flex>
           </Card>
         </div>
+        <Localisation />
       </section>
     </div>
   );
