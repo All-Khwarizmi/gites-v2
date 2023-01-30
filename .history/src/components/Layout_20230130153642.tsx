@@ -5,9 +5,8 @@ import {
   BreadcrumbSeparator,
 } from '@chakra-ui/react'
 import { AppType } from 'next/app'
-import { FC } from 'react';
 
-const Layout= ({ children }: React.PropsWithChildren<{}>) => {
+const Layout= ({ children: any }) => {
     return (
       <>
       <nav className='nav'>

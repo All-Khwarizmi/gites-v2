@@ -27,7 +27,7 @@ const Layout= ({ children }: React.PropsWithChildren<{}>) => {
       </nav>
         
 <>
-  {children}
+  {props}
 </>
       </>
       

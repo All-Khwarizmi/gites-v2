@@ -7,7 +7,7 @@ import {
 import { AppType } from 'next/app'
 import { FC } from 'react';
 
-const Layout= ({ children }: React.PropsWithChildren<{}>) => {
+const Layout: FC= () => {
     return (
       <>
       <nav className='nav'>
