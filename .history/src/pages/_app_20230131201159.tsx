@@ -4,6 +4,7 @@ import Layout from "../components/Layout";
 import { Itim } from "@next/font/google";
 import Navbar from "../components/Navbar";
 
+
 import "../styles/globals.css";
 import Head from "next/head";
 
@@ -19,10 +20,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
         />
         <meta name="title" content="Gîtes Mon Tresor" />
           
-        <meta
-          name="description"
-          content="Gîtes accueillants et chaleureux en Guadeloupe, Anse Bertrand. Venez en famille ou en amoureux profiter des plaisirs qu'offre l'île. "
-        />
+        <meta name="description" content="Gîtes accueillants et chaleu" />
       </Head>
 
       <main className={inter.className}>
