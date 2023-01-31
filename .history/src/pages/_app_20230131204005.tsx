@@ -24,7 +24,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
           name="description"
           content="Gîtes accueillants et chaleureux en Guadeloupe, Anse Bertrand. Venez en famille ou en amoureux profiter des plaisirs qu'offre l'île. "
         />
-        <meta property="og:image" content="/IMG_0318.JPG" key="ogimage" />
+        <meta property="og:image" content="" key="ogimage" />
       </Head>
 
       <main className={inter.className}>
