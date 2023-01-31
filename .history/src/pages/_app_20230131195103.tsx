@@ -14,7 +14,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
   return (
     <ChakraProvider>
       <Head>
-        <meta name="viewport" content="width=device-width" />
+        <meta name="viewport" content="width=de" />
       </Head>
 
       <main className={inter.className}>
