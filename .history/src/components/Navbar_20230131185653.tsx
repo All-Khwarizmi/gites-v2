@@ -58,7 +58,7 @@ function MobileNav({ open, setOpen }: any) {
             }, 100)
           }
         >
-          Localisation
+          Gîtes
         </a>
         <a
           className="my-4 text-xl font-normal"
@@ -69,7 +69,7 @@ function MobileNav({ open, setOpen }: any) {
             }, 100)
           }
         >
-          Tarifs
+          Gîtes
         </a>
         <a
           className="my-4 text-xl font-normal"
@@ -80,7 +80,7 @@ function MobileNav({ open, setOpen }: any) {
             }, 100)
           }
         >
-          Contact
+          Gîtes
         </a>
         <a
           className="my-4 text-xl font-normal"
@@ -91,7 +91,7 @@ function MobileNav({ open, setOpen }: any) {
             }, 100)
           }
         >
-          Partenariats
+          Gîtes
         </a>
       </div>
     </div>
@@ -104,13 +104,14 @@ export default function Navbar({ position }: any) {
   const [colorFont, setColorFont] = useState(" ");
   const [offset, setOffset] = useState(0);
 
+  const divPosition = useRef();
 
   useEffect(() => {
     const onScroll = () => setOffset(window.pageYOffset);
     // clean up code
     window.removeEventListener("scroll", onScroll);
     window.addEventListener("scroll", onScroll, { passive: true });
-    if (position?.current?.getBoundingClientRect().top < 80) {
+    if (position?.current.getBoundingClientRect().top < 80) {
       setColor("bg-white");
       setColorFont("text-black");
     } else {
@@ -119,7 +120,7 @@ export default function Navbar({ position }: any) {
     }
     return () => window.removeEventListener("scroll", onScroll);
   }, [offset]);
-  
+  console.log(position?.current?.getBoundingClientRect().top);
   const style = { backgroundColor: color, color: colorFont };
   return (
     <nav

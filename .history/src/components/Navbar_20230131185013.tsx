@@ -1,5 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 
+
 function NavLink({ to, children }: any) {
   return (
     <a href={to} className={`mx-4`}>
@@ -18,12 +19,8 @@ function MobileNav({ open, setOpen }: any) {
       <div className="flex h-20 items-center justify-center bg-white drop-shadow-md filter">
         {" "}
         {/*logo container*/}
-        <a className="text-2xl font-semibold" href="/">
-          <img
-            className="w-24 hover:w-32"
-            src="/IMG_0318.JPG"
-            alt="Gîtes Mon Tresor Logo"
-          />
+        <a className="text-xl font-semibold" href="/">
+          LOGO
         </a>
       </div>
       <div className="ml-4 flex flex-col">
@@ -36,40 +33,7 @@ function MobileNav({ open, setOpen }: any) {
             }, 100)
           }
         >
-          Accueil
-        </a>
-        <a
-          className="my-4 text-xl font-normal"
-          href="#"
-          onClick={() =>
-            setTimeout(() => {
-              setOpen(!open);
-            }, 100)
-          }
-        >
-          Gîtes
-        </a>
-        <a
-          className="my-4 text-xl font-normal"
-          href="#"
-          onClick={() =>
-            setTimeout(() => {
-              setOpen(!open);
-            }, 100)
-          }
-        >
-          Localisation
-        </a>
-        <a
-          className="my-4 text-xl font-normal"
-          href="#"
-          onClick={() =>
-            setTimeout(() => {
-              setOpen(!open);
-            }, 100)
-          }
-        >
-          Tarifs
+          About
         </a>
         <a
           className="my-4 text-xl font-normal"
@@ -82,45 +46,35 @@ function MobileNav({ open, setOpen }: any) {
         >
           Contact
         </a>
-        <a
-          className="my-4 text-xl font-normal"
-          href="#"
-          onClick={() =>
-            setTimeout(() => {
-              setOpen(!open);
-            }, 100)
-          }
-        >
-          Partenariats
-        </a>
       </div>
     </div>
   );
 }
 
-export default function Navbar({ position }: any) {
+export default function Navbar({position}: any) {
   const [open, setOpen] = useState(false);
-  const [color, setColor] = useState(" ");
-  const [colorFont, setColorFont] = useState(" ");
-  const [offset, setOffset] = useState(0);
+    const [color, setColor] = useState(" ");
+    const [colorFont, setColorFont] = useState(" ");
+    const [offset, setOffset] = useState(0);
 
+    const divPosition = useRef()
 
-  useEffect(() => {
-    const onScroll = () => setOffset(window.pageYOffset);
-    // clean up code
-    window.removeEventListener("scroll", onScroll);
-    window.addEventListener("scroll", onScroll, { passive: true });
-    if (position?.current?.getBoundingClientRect().top < 80) {
-      setColor("bg-white");
-      setColorFont("text-black");
-    } else {
-      setColor(" ");
-      setColorFont("text-white");
-    }
-    return () => window.removeEventListener("scroll", onScroll);
-  }, [offset]);
-  
-  const style = { backgroundColor: color, color: colorFont };
+    useEffect(() => {
+      const onScroll = () => setOffset(window.pageYOffset);
+      // clean up code
+      window.removeEventListener("scroll", onScroll);
+      window.addEventListener("scroll", onScroll, { passive: true });
+      if (position?.current.getBoundingClientRect().top < 80) {
+        setColor("bg-white");
+        setColorFont("text-black");
+      } else {
+        setColor(" ");
+        setColorFont("text-white");
+      }
+      return () => window.removeEventListener("scroll", onScroll);
+    }, [offset]);
+console.log(position?.current?.getBoundingClientRect().top)
+    const style = { backgroundColor: color, color: colorFont };
   return (
     <nav
       className={`nav flex h-20 w-full items-center gap-4 ${style.backgroundColor}  px-4 py-4 drop-shadow-md filter`}
@@ -161,7 +115,7 @@ export default function Navbar({ position }: any) {
         </div>
 
         <div className="hidden md:flex">
-          <ul className="flex justify-items-center gap-x-3">
+          <ul>
             <li className="mr-6">
               <a
                 className={` flex-initial text-2xl ${style.color} text-justify   hover:underline`}

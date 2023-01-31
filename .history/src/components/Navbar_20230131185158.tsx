@@ -18,12 +18,8 @@ function MobileNav({ open, setOpen }: any) {
       <div className="flex h-20 items-center justify-center bg-white drop-shadow-md filter">
         {" "}
         {/*logo container*/}
-        <a className="text-2xl font-semibold" href="/">
-          <img
-            className="w-24 hover:w-32"
-            src="/IMG_0318.JPG"
-            alt="Gîtes Mon Tresor Logo"
-          />
+        <a className="text-xl font-semibold" href="/">
+          LOGO
         </a>
       </div>
       <div className="ml-4 flex flex-col">
@@ -36,40 +32,7 @@ function MobileNav({ open, setOpen }: any) {
             }, 100)
           }
         >
-          Accueil
-        </a>
-        <a
-          className="my-4 text-xl font-normal"
-          href="#"
-          onClick={() =>
-            setTimeout(() => {
-              setOpen(!open);
-            }, 100)
-          }
-        >
-          Gîtes
-        </a>
-        <a
-          className="my-4 text-xl font-normal"
-          href="#"
-          onClick={() =>
-            setTimeout(() => {
-              setOpen(!open);
-            }, 100)
-          }
-        >
-          Localisation
-        </a>
-        <a
-          className="my-4 text-xl font-normal"
-          href="#"
-          onClick={() =>
-            setTimeout(() => {
-              setOpen(!open);
-            }, 100)
-          }
-        >
-          Tarifs
+          About
         </a>
         <a
           className="my-4 text-xl font-normal"
@@ -82,17 +45,6 @@ function MobileNav({ open, setOpen }: any) {
         >
           Contact
         </a>
-        <a
-          className="my-4 text-xl font-normal"
-          href="#"
-          onClick={() =>
-            setTimeout(() => {
-              setOpen(!open);
-            }, 100)
-          }
-        >
-          Partenariats
-        </a>
       </div>
     </div>
   );
@@ -104,13 +56,14 @@ export default function Navbar({ position }: any) {
   const [colorFont, setColorFont] = useState(" ");
   const [offset, setOffset] = useState(0);
 
+  const divPosition = useRef();
 
   useEffect(() => {
     const onScroll = () => setOffset(window.pageYOffset);
     // clean up code
     window.removeEventListener("scroll", onScroll);
     window.addEventListener("scroll", onScroll, { passive: true });
-    if (position?.current?.getBoundingClientRect().top < 80) {
+    if (position?.current.getBoundingClientRect().top < 80) {
       setColor("bg-white");
       setColorFont("text-black");
     } else {
@@ -119,7 +72,7 @@ export default function Navbar({ position }: any) {
     }
     return () => window.removeEventListener("scroll", onScroll);
   }, [offset]);
-  
+  console.log(position?.current?.getBoundingClientRect().top);
   const style = { backgroundColor: color, color: colorFont };
   return (
     <nav

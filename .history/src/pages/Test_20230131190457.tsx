@@ -132,7 +132,7 @@ const Test = () => {
               muted
               loop
               id="myVideo"
-              poster="/Gite Kawan/1.jpg"
+              poster="/Gite Kawan/1"
             >
               <source src={"/Mon film.mp4"} type="video/mp4" />
             </video>

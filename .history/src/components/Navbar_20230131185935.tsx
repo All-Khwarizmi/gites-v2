@@ -104,13 +104,14 @@ export default function Navbar({ position }: any) {
   const [colorFont, setColorFont] = useState(" ");
   const [offset, setOffset] = useState(0);
 
+  const divPosition = useRef();
 
   useEffect(() => {
     const onScroll = () => setOffset(window.pageYOffset);
     // clean up code
     window.removeEventListener("scroll", onScroll);
     window.addEventListener("scroll", onScroll, { passive: true });
-    if (position?.current?.getBoundingClientRect().top < 80) {
+    if (position?.current.getBoundingClientRect().top < 80) {
       setColor("bg-white");
       setColorFont("text-black");
     } else {

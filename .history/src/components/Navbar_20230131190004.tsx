@@ -105,6 +105,7 @@ export default function Navbar({ position }: any) {
   const [offset, setOffset] = useState(0);
 
 
+
   useEffect(() => {
     const onScroll = () => setOffset(window.pageYOffset);
     // clean up code

@@ -104,6 +104,7 @@ export default function Navbar({ position }: any) {
   const [colorFont, setColorFont] = useState(" ");
   const [offset, setOffset] = useState(0);
 
+  const divPosition = useRef();
 
   useEffect(() => {
     const onScroll = () => setOffset(window.pageYOffset);

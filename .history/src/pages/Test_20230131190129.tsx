@@ -87,7 +87,9 @@ const Test = () => {
     {
       img: "/Gite Kawan/4.jpg",
     },
-  
+    {
+      img: "/Gite Kawan/5.jpg",
+    },
     {
       img: "/Gite Kawan/6.jpg",
     },
@@ -132,7 +134,7 @@ const Test = () => {
               muted
               loop
               id="myVideo"
-              poster="/Gite Kawan/1.jpg"
+              poster="/Gite Kawan/1"
             >
               <source src={"/Mon film.mp4"} type="video/mp4" />
             </video>
