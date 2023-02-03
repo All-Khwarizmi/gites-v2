@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --colorOne: #ffb965;
+  --colorTwo: #d99feb;
+  --color3: #ffbf5b;
+  --color4: #31b7cf;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.test {
+  width: 100%;
+}
+
+#myVideo {
+  object-fit: cover;
+
+  min-height: 100vh;
+  position: relative;
+  z-index: -1;
+  bottom: 0;
+  right: 0;
+}
+
+.section {
+  background-image: linear-gradient(
+    20deg,
+    var(--colorOne) 0%,
+    var(--colorTwo) 100%
+  );
+  margin-top: 0;
+  position: relative;
+}
+.section-2 {
+  background-image: linear-gradient(
+    3deg,
+    var(--colorTwo) 0%,
+    var(--colorOne) 100%
+  );
+  margin-top: 0;
+  position: relative;
+}
+.location-div {
+  background-image: linear-gradient(
+    27deg,
+    var(--colorTwo) 0%
+    var(--colorOne) 100%,
+    
+  );
+  position: relative;
+}
+
+.card-1 {
+  background-color: inherit;
+  padding: 3rem;
+  width: 100%;
+}
+.nav {
+  position: fixed;
+  z-index: 5;
+  
+  
+}
+
+
