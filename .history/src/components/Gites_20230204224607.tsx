@@ -11,7 +11,7 @@ const Gites = () => {
           alt="Gite Ananas"
         />
       </div>
-      <div className="lg:h-500 group relative flex cursor-pointer justify-center overflow-hidden rounded-md text-center sm:px-10 md:px-0  lg:w-[80%] ">
+      <div className="lg:h-500 group relative flex cursor-pointer justify-center overflow-hidden rounded-md text-center sm:px-10 md:px-3  lg:w-[80%] ">
         <img
           className="h-100 w-50   duration-500
           shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] ease-in-out hover:rotate-2 hover:scale-125"
