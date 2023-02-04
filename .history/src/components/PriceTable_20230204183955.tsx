@@ -2,7 +2,7 @@ import React from "react";
 
 const PriceTable = () => {
   return (
-    <div className="section-3 grid grid-flow-row place-items-center gap-1 lg:grid-flow-col">
+    <div className="section-3 grid grid-flow-row place-items-center gap-1 md:grid-flow-col">
       <div className="w-4/5 p-1 ">
         <div className="pricingTable10">
           <div className="pricingTable-header">
@@ -114,38 +114,25 @@ const PriceTable = () => {
             </div>
             <div className="text-lg">
               <h2 className="text-3xl">Gîtes Ananas et Palmier</h2>
-              <div className="p-2"></div>
-              <strong>500€</strong> / semaine
-              <p> pour 4 personnes </p>
-              <div className="p-2"></div>
-              <p>De 3 à 6 nuités:</p>
-              <p>
-                {" "}
-                - <strong>90€</strong> pour 2 personnes
-              </p>
-              <p>
-                {" "}
-                - <strong>115€</strong> pour 4 personnes
-              </p>
-              <div className="grid-row grid place-items-center p-3">
-                <div className="border-black-500 w-2/3 border-t-2" />
-              </div>
-              <h2>Gîte Kawan</h2>
-              <p>
-                <div className="p-2"></div>
-                <strong>520€</strong> / semaine
-              </p>
-              <p> pour 4 personnes </p>
-              <div className="p-2"></div>
-              <p>De 3 à 6 nuités:</p>
-              <p>
-                {" "}
-                - <strong>100€</strong> pour 2 personnes
-              </p>
-              <p className="pb-3">
-                {" "}
-                - <strong>140€</strong> pour 4 personnes
-              </p>
+         
+               
+                  500€ / semaine
+                  <p> pour 4 personnes </p>
+        
+                  <p>De 3 à 6 nuités:</p>
+                  <p> - 90€ pour 2 personnes</p>
+                  <p> - 115€ pour 4 personnes</p>
+                </li>
+                <h2>Gîte Kawan</h2>
+
+                  <p>520€ / semaine</p>
+                  <p> pour 4 personnes </p>
+                  <br />
+                  <p>De 3 à 6 nuités:</p>
+                  <p> - 100€ pour 2 personnes</p>
+                  <p> - 140€ pour 4 personnes</p>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const PriceTable = () => {
   return (
-    <div className="section-3 grid grid-flow-row place-items-center gap-1 lg:grid-flow-col">
+    <div className="section-3 grid grid-flow-row place-items-center gap-1 md:grid-flow-col">
       <div className="w-4/5 p-1 ">
         <div className="pricingTable10">
           <div className="pricingTable-header">
