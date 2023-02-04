@@ -71,7 +71,7 @@ const CarousselCard = () => {
         </Flex>
       </Card>
     </div>
-  )
+  )g
 };
 
 export default CarousselCard;

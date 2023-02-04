@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import {
   Card,
   CardHeader,
@@ -71,7 +71,7 @@ const CarousselCard = () => {
         </Flex>
       </Card>
     </div>
-  )
-};
+  );
+}
 
-export default CarousselCard;
+export default CarousselCard

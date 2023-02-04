@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import {
   Card,
   CardHeader,
@@ -60,7 +60,7 @@ const CarousselCard = () => {
           </Heading>
         </Stack>
         <CardBody>
-          <Carousel slides={/* slidesKawan */ null} />
+          <Carousel slides={slidesKawan} />
         </CardBody>
         <Flex align="center" justify="center">
           <CardFooter>
@@ -71,7 +71,7 @@ const CarousselCard = () => {
         </Flex>
       </Card>
     </div>
-  )
-};
+  );
+}
 
-export default CarousselCard;
+export default CarousselCard
