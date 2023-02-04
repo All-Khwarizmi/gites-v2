@@ -1,0 +1,216 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --colorOne: #ffb965;
+  --colorTwo: #d99feb;
+  --color3: #ffbf5b;
+  --color4: #31b7cf;
+  --gradient: linear-gradient(27deg, var(--colorOne) 0%, var(--colorTwo) 100%);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.test {
+  width: 100%;
+}
+
+#myVideo {
+  object-fit: cover;
+
+  min-height: 100vh;
+  position: relative;
+  z-index: -1;
+  bottom: 0;
+  right: 0;
+}
+
+.section {
+  background-image: linear-gradient(
+    27deg,
+    var(--colorOne) 0%,
+    var(--colorTwo) 100%
+  );
+  margin-top: 0;
+  min-height: 100vh;
+}
+.section-2 {
+  background-image: linear-gradient(
+    328deg,
+    var(--colorTwo) 0%,
+    var(--colorOne) 100%
+  );
+  margin-top: 0;
+  min-height: 100vh;
+}
+.section-3 {
+  background-image: linear-gradient(
+    27deg,
+    var(--colorOne) 0%,
+    var(--colorTwo) 100%
+  );
+  margin-top: 0;
+
+  min-height: 100vh;
+}
+
+.text-location {
+  text-align: center;
+  text-justify: center;
+  width: auto auto;
+}
+
+.card-1 {
+  background-color: inherit;
+  padding: 3rem;
+  width: 100%;
+}
+.nav {
+  position: fixed;
+  z-index: 5;
+}
+
+/* ============ Price Table  =================== */
+
+.demo10 {
+  padding: 30px 0;
+}
+.pricingTable10 {
+  text-align: center;
+}
+/* Fond saison */
+.pricingTable10 .pricingTable-header {
+  padding: 30px 0;
+  background: #000;
+  position: relative;
+  transition: all 0.3s ease 0s;
+}
+/* Fond hover */
+.pricingTable10:hover .pricingTable-header {
+  background: var(--gradient);
+}
+/* Trous lacets haut */
+.pricingTable10 .pricingTable-header:after,
+.pricingTable10 .pricingTable-header:before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid #d9d9d8;
+  position: absolute;
+  bottom: 12px;
+}
+.pricingTable10 .pricingTable-header:before {
+  left: 40px;
+}
+.pricingTable10 .pricingTable-header:after {
+  right: 40px;
+}
+/* DATE */
+.pricingTable10 .heading {
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 0;
+}
+
+/* Saison */
+.pricingTable10 .price-value {
+  display: inline-block;
+  position: relative;
+
+  font-weight: 700;
+  font-size: 32px;
+  background: -webkit-linear-gradient(
+    27deg,
+    var(--colorOne) 0%,
+    var(--colorTwo) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease 0s;
+}
+
+
+/* Fond prix */
+.pricingTable10 .pricing-content {
+  padding-top: 50px;
+  background: #fff;
+  position: relative;
+}
+
+/* Trous lacets */
+.pricingTable10 .pricing-content:after,
+.pricingTable10 .pricing-content:before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid #7c7c7c;
+  position: absolute;
+  top: 12px;
+}
+.pricingTable10 .pricing-content:before {
+  left: 40px;
+}
+.pricingTable10 .pricing-content:after {
+  right: 40px;
+}
+.pricingTable10 .pricing-content ul {
+  padding: 0 20px;
+  margin: 0;
+  list-style: none;
+  
+}
+/* lacets shadow */
+.pricingTable10 .pricing-content ul:after,
+.pricingTable10 .pricing-content ul:before {
+  content: "";
+  width: 8px;
+  height: 46px;
+  border-radius: 3px;
+  background: var(--gradient);
+  position: absolute;
+  top: -22px;
+  z-index: 1;
+  box-shadow: 0 0 5px #000;
+  transition: all 0.3s ease 0s;
+}
+.pricingTable10:hover .pricing-content ul:after,
+.pricingTable10:hover .pricing-content ul:before {
+  background: var(--gradient);
+}
+.pricingTable10 .pricing-content ul:before {
+  left: 44px;
+}
+.pricingTable10 .pricing-content ul:after {
+  right: 44px;
+}
+
+/* Ligne séparatrice */
+.pricingTable10 .pricing-content ul li {
+  font-size: 15px;
+  font-weight: 700;
+  color: #000;
+  padding: 10px 0;
+  border-bottom: 1px solid #d9d9d8;
+}
+.pricingTable10 .pricing-content ul li:last-child {
+  border-bottom: none;
+}
+
+@media screen and (max-width: 990px) {
+  .pricingTable10 {
+    margin-bottom: 25px;
+  }
+}
+/* Credit to https://bootsnipp.com/snippets/92erW */
