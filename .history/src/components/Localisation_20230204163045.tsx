@@ -27,7 +27,7 @@ const Localisation = () => {
             alt="carte de la Guadeloupe"
           />
         </a>
-        <div className="flex  items-center justify-center text-center">
+        <div className="flex w-[60%] items-center justify-center text-center">
           <p className="p-2 ">
             À 30 minutes (27km) de l’aéroport Pôle Caraïbes, desservie par Air
             France, Air Caraïbes, Corsair, Air Canada, Air Belgium. À visiter

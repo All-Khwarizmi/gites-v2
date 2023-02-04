@@ -22,23 +22,13 @@ const Localisation = () => {
           href={baseUrl}
         >
           <img
-            className="w[90%] md:w-2/3"
+            className="w[90%] md:w[90%]"
             src="./IMG_0537.JPG"
             alt="carte de la Guadeloupe"
           />
         </a>
-        <div className="flex  items-center justify-center text-center">
-          <p className="p-2 ">
-            À 30 minutes (27km) de l’aéroport Pôle Caraïbes, desservie par Air
-            France, Air Caraïbes, Corsair, Air Canada, Air Belgium. À visiter
-            aux alentours : La Pointe de la Grande Vigie La Porte d’Enfer avec
-            le trou de Man Coco Les plages : plage de La Chapelle, l’Anse
-            Laborde, l’Anse Colas et la magnifique plage du Souffleur avec sa
-            base nautique Les Marches des Esclaves et l’ancienne prison à
-            Petit-Canal
-          </p>
-        </div>
       </div>
+      <div></div>
     </div>
   );
 };
