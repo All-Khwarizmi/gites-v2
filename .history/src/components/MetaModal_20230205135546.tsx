@@ -9,7 +9,7 @@ const MetaModal = () => {
   return (
     <div>
       <a
-        href="http://m.me/gitesmontresor"
+        href="http://m.me/9"
         target="_blank"
         rel="noopener noreferrer"
       >
