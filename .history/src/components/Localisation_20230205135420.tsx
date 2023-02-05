@@ -12,7 +12,7 @@ const coordsLG = {
 };
 const coordsSM = {
   width: "300px",
-  height: "200px",
+  height: "400px",
 };
   const coordinates: string =
     "Les+Gîtes+Mon+Trésor/@16.4645544,-61.4825254,17z";
