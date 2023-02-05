@@ -126,7 +126,7 @@ const Test = () => {
           </section>
 
           <section ref={divPosition} className="section h-full w-screen">
-            <div className="card-1 flex-column flex w-full justify-center lg:mb-10">
+            <div className="card-1 flex-column flex w-full justify-center ">
               <Card className="w-full lg:w-[60%]">
                 <Heading className="flex-column flex place-items-center justify-center p-2 text-center">
                   <p> Bienvenue en Guadeloupe !</p>

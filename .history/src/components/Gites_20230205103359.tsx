@@ -4,7 +4,7 @@ import Image from "next/image";
 const Gites = () => {
   return (
     <>
-      <div className="grid-rows grid place-items-center gap-3 lg:pt-5 lg:grid lg:grid-cols-3">
+      <div className="grid-rows grid place-items-center gap-3 lg:grid lg:grid-cols-3">
         <div className="rotate-x-6 lg:h-500 group relative flex skew-y-3 cursor-pointer flex-col justify-center overflow-hidden rounded-md py-5 text-center sm:px-10 md:px-5 lg:w-[80%] ">
           <img
             className="h-100 w-50 rotate-x-6 -skew-y-3 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] duration-500 ease-in-out hover:rotate-2 hover:scale-125"

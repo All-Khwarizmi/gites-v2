@@ -159,7 +159,7 @@ export default function Navbar({ position }: any) {
             }`}
           />
         </div>
-        {/* TODO change a => Link to each section */}
+        {/* Changed md => lg */}
         <div className="hidden lg:flex">
           <ul className="flex justify-items-center gap-x-3">
             <li className="mr-6">

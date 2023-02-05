@@ -137,7 +137,7 @@ export default function Navbar({ position }: any) {
       </div>
       <div className="flex w-9/12 items-center justify-end">
         <div
-          className="relative z-50 flex h-8 w-8 flex-col items-center justify-between lg:hidden"
+          className="relative z-50 flex h-8 w-8 flex-col items-center justify-between md:hidden"
           onClick={() => {
             setOpen(!open);
           }}
@@ -159,7 +159,7 @@ export default function Navbar({ position }: any) {
             }`}
           />
         </div>
-        {/* TODO change a => Link to each section */}
+{/* Changed md => lg */}
         <div className="hidden lg:flex">
           <ul className="flex justify-items-center gap-x-3">
             <li className="mr-6">
