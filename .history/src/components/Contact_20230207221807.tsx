@@ -79,7 +79,7 @@ const Contact = () => {
           </form>
         </div>
         {/* Grid div */}
-        <div className="top-40 m-0 grid min-h-[100%] w-[80%] grid-wrap md:grid-cols-2  gap-3 border-0 pb-5  lg:absolute lg:left-10 lg:min-h-[40%] lg:w-[40%]  ">
+        <div className="top-40 m-0 grid min-h-[100%] w-[80%] grid-cols-2  gap-3 border-0 pb-5  lg:absolute lg:left-10 lg:min-h-[40%] lg:w-[40%]  ">
           {/* 4 divs  */}
 
           <div className=" grid place-items-center gap-2 bg-white py-5">
