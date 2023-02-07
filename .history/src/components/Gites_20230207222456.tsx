@@ -29,7 +29,7 @@ const Gites = () => {
         <div className="rounded bg-white bg-blue-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 lg:hidden  ">
           <h3 className="px-4 py-2 text-2xl">Gîte Kawan</h3>
         </div>
-        <div className="lg:h-800 group relative flex -skew-y-3 cursor-pointer justify-center overflow-hidden rounded-md text-center px-1 md:px-5  lg:w-[80%] ">
+        <div className="lg:h-800 group relative flex -skew-y-3 cursor-pointer justify-center overflow-hidden rounded-md text-center sm:px-10 md:px-5  lg:w-[80%] ">
           <img
             className="h-100 w-50 skew-y-3  shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]
           duration-500 ease-in-out hover:rotate-2 hover:scale-125"
