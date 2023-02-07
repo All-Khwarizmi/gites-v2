@@ -84,7 +84,11 @@ body {
   width: auto auto;
 }
 
-
+.card-1 {
+  background-color: inherit;
+  
+  
+}
 .nav {
   position: fixed;
   z-index: 5;
@@ -96,7 +100,9 @@ body {
   margin: 1rem;
 }
 
-
+.div-form {
+ 
+}
 
 /* ============ Price Table  =================== */
 

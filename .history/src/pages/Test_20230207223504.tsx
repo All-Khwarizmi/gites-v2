@@ -127,7 +127,7 @@ const Test = () => {
           </section>
 
           <section ref={divPosition} className="section h-full w-screen">
-            <div className=" py-5 px-5 flex w-[100%]  justify-center lg:mb-10">
+            <div className=" py-5  flex w-[100%]  justify-center lg:mb-10">
               <Card className="w-[100%] lg:w-[60%]">
                 <Heading className="flex-column flex place-items-center justify-center p-2 text-center">
                   <p> Bienvenue en Guadeloupe !</p>
