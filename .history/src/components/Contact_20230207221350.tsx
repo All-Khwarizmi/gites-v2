@@ -31,7 +31,7 @@ const Contact = () => {
       .sendForm(
         env.NEXT_PUBLIC_SERVICE_ID || "",
         env.NEXT_PUBLIC_TEMPLATE_ID || "",
-        form.current || "",
+        form.current ,
         env.NEXT_PUBLIC_PUBLIC_KEY || ""
       )
       .then(
