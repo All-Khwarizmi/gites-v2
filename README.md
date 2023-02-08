@@ -24,6 +24,8 @@ We used **@react-google-maps/api** that provides very simple bindings to the goo
 ### Online reservation & payment 
 
 - [Stripe Docs](https://stripe.com/docs/development/quickstart)
+- [React booking form API](https://www.npmjs.com/package/react-booking-form)
+- [Tutorial React booking form API](https://dev.to/maxsym/react-package-to-create-booking-forms-introduction-5dlj)
 
 ### Get window on SSR
 
