@@ -16,6 +16,15 @@ We used **@react-google-maps/api** that provides very simple bindings to the goo
 
 ### Fonts on NextJS 13
 
+### React hooks form & EmailJs
+
+- [React Hook Form](https://react-hook-form.com)
+- [EmailJS](https://www.emailjs.com)
+
+### Online reservation & payment 
+
+- [Stripe Docs](https://stripe.com/docs/development/quickstart)
+
 ### Get window on SSR
 
 ### Video integration
@@ -23,6 +32,8 @@ We used **@react-google-maps/api** that provides very simple bindings to the goo
 ### Performance
 
 ### Messenger Link to conversation
+
+### Deployment
 
 - [Next.js](https://nextjs.org)
 - [NextAuth.js](https://next-auth.js.org)
