@@ -3,7 +3,7 @@ import React from "react";
 const PriceTable = () => {
   return (
     <div className=" grid grid-flow-row place-items-center gap-1 lg:grid-flow-col">
-      <div className="  w-4/5  ">
+      <div className="h-[70%] w-4/5  ">
         <div className="pricingTable10">
           <div className="pricingTable-header">
             <span className="price-value">BASSE SAISON</span>
@@ -54,7 +54,7 @@ const PriceTable = () => {
         </div>
       </div>
 
-      <div className=" w-4/5 ">
+      <div className="h-[70%] w-4/5 ">
         <div className="pricingTable10">
           <div className="pricingTable-header ">
             <span className="price-value py-3">HAUTE SAISON</span>
@@ -103,7 +103,7 @@ const PriceTable = () => {
         </div>
       </div>
 
-      <div className=" w-4/5 ">
+      <div className="h-[70%] w-4/5">
         <div className="pricingTable10">
           <div className="pricingTable-header">
             <span className="price-value py-3">TRÈS HAUTE SAISON</span>

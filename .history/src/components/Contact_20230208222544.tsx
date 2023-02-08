@@ -50,9 +50,9 @@ const Contact = () => {
   return (
     <>
       {/* 1st div container */}
-      <div className="grid relative  place-items-center gap-5 lg:relative lg:grid lg:w-full ">
+      <div className="grid  place-items-center gap-5 lg:relative lg:grid lg:w-full ">
         {/* Form div */}
-        <div className="div-form w-[80%] gap-3 bg-gray-100 px-5 lg:absolute mt-1 lg:top-40 lg:right-20 lg:m-0 lg:min-h-[50%]  lg:w-[50%] lg:p-2">
+        <div className="div-form w-[80%] gap-3 bg-gray-100 px-5 lg:absolute m lg:top-40 lg:right-20 lg:m-0 lg:min-h-[50%]  lg:w-[50%] lg:p-2">
           <form
             ref={form}
             className="flex w-full flex-col rounded p-5 lg:py-5 lg:px-40"

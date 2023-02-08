@@ -168,7 +168,7 @@ const Test = () => {
         <section id="section-3" className="section-2 ">
           <Localisation />
         </section>
-        <section id="section-4" className="section-3 relative">
+        <section id="section-4" className="section-3">
           <PriceTable />
         </section>
         <section id="section-5" className="section-4 relative">

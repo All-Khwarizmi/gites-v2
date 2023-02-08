@@ -168,13 +168,13 @@ const Test = () => {
         <section id="section-3" className="section-2 ">
           <Localisation />
         </section>
-        <section id="section-4" className="section-3 relative">
+        <section id="section-4" className="section-3">
           <PriceTable />
         </section>
-        <section id="section-5" className="section-4 relative">
+        <section id="section-5" className="section-4">
           <Contact />
         </section>
-        <section id="section-6" className="section-5">
+        <section id="section-6" className="section-5 p">
           <Partenariats /> 
         </section>
 <SimpleFooter />
