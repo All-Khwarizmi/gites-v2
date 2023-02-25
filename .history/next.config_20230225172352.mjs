@@ -15,15 +15,8 @@ const config = {
     defaultLocale: "en",
   }, */
   images: {
+    unoptimized = true,
     
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "ik.imagekit.io",
-        port: "",
-        pathname: "/montresor/**",
-      },
-    ],
   },
  
 };

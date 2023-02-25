@@ -22,7 +22,7 @@ function MobileNav({ open, setOpen }: any) {
         <Link className=" h-auto text-2xl font-semibold" href="/">
           <div className="h-auto relative">
 
-          <img
+          <Image
             className="w-44 hover:w-48"
             src="/IMG_0318.JPG"
             alt="Gîtes Mon Tresor Logo"

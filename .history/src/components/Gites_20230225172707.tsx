@@ -34,7 +34,7 @@ const Gites = ({ slides }: any) => {
 
         <AnanasModal slides={slides} />
         <div className="lg:h-800 group relative flex  cursor-pointer justify-center overflow-hidden rounded-md px-1 text-center md:px-5 lg:w-[80%] ">
-          <img
+          <Image
             className="h-auto   rounded  shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]
           duration-500 ease-in-out hover:rotate-2 hover:scale-125"
             src="/kawan.jpg"
@@ -50,7 +50,7 @@ const Gites = ({ slides }: any) => {
 
         <KawanModal slides={slides} />
         <div className="lg:h-800 group relative flex -skew-y-3 cursor-pointer justify-center overflow-hidden rounded-md px-1 text-center md:px-5   lg:w-[80%] ">
-          <img
+          <Image
             className="h-auto w-auto skew-y-3  shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]
           duration-500 ease-in-out hover:rotate-2 hover:scale-125"
             src="/palmier.jpg"

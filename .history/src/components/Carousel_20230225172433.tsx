@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from 'react';
 import { Flex, Box, Text } from '@chakra-ui/react';
-
+ import Image from 'next/image';
 
 
 const Carousel = ( { slides}: any)  => {

@@ -15,7 +15,6 @@ const config = {
     defaultLocale: "en",
   }, */
   images: {
-    
     remotePatterns: [
       {
         protocol: "https",
@@ -25,7 +24,7 @@ const config = {
       },
     ],
   },
- 
+  images.unoptimized = true
 };
 
 
