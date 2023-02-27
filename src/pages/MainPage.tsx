@@ -15,83 +15,83 @@ const MainPage = () => {
 
   const slidesPalmier = [
     {
-      img: "https://ik.imagekit.io/montresor/Palmier/1.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676123146792",
+      img: "./palmier/1.jpg",
     },
     {
-      img: "https://ik.imagekit.io/montresor/Palmier/2.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676123146807",
+      img: "./palmier/2.jpg",
     },
     {
-      img: "https://ik.imagekit.io/montresor/Palmier/3.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1677420138237",
+      img: "./palmier/3.jpg",
     },
     {
-      img: "https://ik.imagekit.io/montresor/Palmier/4.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676640811340",
+      img: "./palmier/4.jpg",
     },
     {
-      img: "https://ik.imagekit.io/montresor/Palmier/5.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676123146779",
+      img: "./palmier/6.jpg",
     },
     {
-      img: "https://ik.imagekit.io/montresor/Palmier/6.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676123146793",
+      img: "./palmier/6.jpg",
     },
     {
-      img: "https://ik.imagekit.io/montresor/Palmier/7.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676123146778",
+      img: "./palmier/7.jpg",
+    },
+    {
+      img: "./palmier/8.jpg",
     },
   ];
   const slidesAnanas = [
     {
-      img: "https://ik.imagekit.io/montresor/Ananas/1.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676123256110",
+      img: "./ananas/1.jpg",
     },
     {
-      img: "https://ik.imagekit.io/montresor/Ananas/2.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676123256193",
+      img: "./ananas/2.jpg",
     },
     {
-      img: "https://ik.imagekit.io/montresor/Ananas/3.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676123256235",
+      img: "./ananas/3.jpg",
     },
     {
-      img: "https://ik.imagekit.io/montresor/Ananas/4.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676123256147",
+      img: "./ananas/4.jpg",
     },
     {
-      img: "https://ik.imagekit.io/montresor/Ananas/5.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676123256140",
+      img: "./ananas/5.jpg",
     },
     {
-      img: "https://ik.imagekit.io/montresor/Ananas/6.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676123256149",
+      img: "./ananas/6.jpg",
     },
-   
   ];
   const slidesKawan = [
     {
-      img: "https://ik.imagekit.io/montresor/Kawan/1.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676123040794",
+      img: "kawan/1.jpg",
     },
     {
-      img: "https://ik.imagekit.io/montresor/Kawan/2.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676123042811",
+      img: "kawan/2.jpg",
     },
     {
-      img: "https://ik.imagekit.io/montresor/Kawan/3.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676641317584",
+      img: "kawan/3.jpg",
     },
     {
-      img: "https://ik.imagekit.io/montresor/Kawan/4.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676123042080",
+      img: "kawan/4.jpg",
     },
 
     {
-      img: "https://ik.imagekit.io/montresor/Kawan/5.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676123041229",
+      img: "kawan/5.jpg",
     },
     {
-      img: "https://ik.imagekit.io/montresor/Kawan/6.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676123041250",
+      img: "kawan/6.jpg",
     },
     {
-      img: "https://ik.imagekit.io/montresor/Kawan/7.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676123041241",
+      img: "kawan/7.jpg",
     },
     {
-      img: "https://ik.imagekit.io/montresor/Kawan/8.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676641257970",
+      img: "kawan/8.jpg",
     },
     {
-      img: "https://ik.imagekit.io/montresor/Kawan/9.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676123042096",
+      img: "kawan/9.jpg",
     },
     {
-      img: "https://ik.imagekit.io/montresor/Kawan/10.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676123041357",
+      img: "kawan/10.jpg",
     },
-    {
-      img: "https://ik.imagekit.io/montresor/Kawan/11.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676641163617",
-    },
+    
   ];
 
   const slides = {

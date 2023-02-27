@@ -13,7 +13,7 @@ const Video = () => {
         id="myVideo"
         poster="./kawan.jpg"
         src={
-          "https://ik.imagekit.io/montresor/Mon_film_2.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1676104658041"
+          "heroVideo.mp4"
         }
       ></video>
     </section>
