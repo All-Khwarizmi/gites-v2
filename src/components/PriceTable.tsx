@@ -36,13 +36,13 @@ const PriceTable = () => {
                 <div className="text-lg">
                   <h2 className="text-3xl">Gîtes Ananas et Palmier</h2>
                   <div className="p-2"></div>
-                  <strong> 400€</strong> / semaine
+                  <strong> 420€</strong> / semaine
                   <p> pour 4 personnes </p>
                   <div className="p-2"></div>
                   <p>De 3 à 6 nuitées:</p>
                   <p>
                     {" "}
-                    - <strong>65€ </strong> pour 2 personnes
+                    - <strong>65€</strong> pour 2 personnes
                   </p>
                   <p>
                     {" "}
@@ -54,7 +54,7 @@ const PriceTable = () => {
                   <h2 className=" pl-2 text-3xl">Gîte Kawan</h2>
                   <div className="p-2"></div>
                   <p>
-                    <strong>420€</strong>/ semaine
+                    <strong>440€</strong>/ semaine
                   </p>
                   <p> pour 4 personnes </p>
                   <div className="p-2"></div>
@@ -93,7 +93,7 @@ const PriceTable = () => {
               <div className="bg-white text-lg">
                 <h2 className="text-3xl">Gîtes Ananas et Palmier</h2>
                 <div className="p-2"></div>
-                <strong>450€</strong> / semaine
+                <strong>470€</strong> / semaine
                 <p> pour 4 personnes </p>
                 <div className="p-2"></div>
                 <p>De 3 à 6 nuitées:</p>
@@ -111,7 +111,7 @@ const PriceTable = () => {
                 <h2 className=" pl-2 text-3xl">Gîte Kawan</h2>
                 <div className="p-2"></div>
                 <p>
-                  <strong>480€</strong> / semaine
+                  <strong>500€</strong> / semaine
                 </p>
                 <p> pour 4 personnes </p>
                 <div className="p-2"></div>
@@ -148,7 +148,7 @@ const PriceTable = () => {
                 <div className="text-lg">
                   <h2 className="text-3xl">Gîtes Ananas et Palmier</h2>
                   <div className="p-2"></div>
-                  <strong>500€</strong> / semaine
+                  <strong>520€</strong> / semaine
                   <p> pour 4 personnes </p>
                   <div className="p-2"></div>
                   <p>De 3 à 6 nuitées:</p>
@@ -166,7 +166,7 @@ const PriceTable = () => {
                   <h2 className=" pl-2 text-3xl">Gîte Kawan</h2>
                   <div className="p-2"></div>
                   <p>
-                    <strong>520€</strong> / semaine
+                    <strong>540€</strong> / semaine
                   </p>
                   <p> pour 4 personnes </p>
                   <div className="p-2"></div>
