@@ -26,7 +26,7 @@ const KawanModalLG = ({ slides }: any) => {
         onClick={onOpen}
         className={clsx(
           cabin.className,
-          "btn-blk w-40 rounded px-4 py-2 text-center  text-2xl font-bold   transition"
+          "btn-blk w-40 cursor-pointer rounded px-4 py-2 text-center  text-2xl font-bold   transition"
         )}
       >
         Gîte Kawan

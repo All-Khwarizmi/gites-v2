@@ -15,12 +15,12 @@ const ModaliteModalLG = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <div className="w-50 flex hidden place-items-center content-center justify-center rounded  bg-black transition delay-150  duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 lg:block ">
+    <div className="w-50 flex  place-items-center content-center justify-center rounded  bg-black transition delay-150  duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 lg:block ">
       <h3
         onClick={onOpen}
         className={clsx(
           cabin.className,
-          "btn-blk w-50 rounded px-4 py-2 text-center  text-2xl font-bold   transition"
+          "btn-blk w-50 cursor-pointer rounded px-4 py-2 text-center  text-2xl font-bold   transition"
         )}
       >
         Modalités de réservation
@@ -34,7 +34,7 @@ const ModaliteModalLG = () => {
               <h3
                 className={clsx(
                   cabin.className,
-                  "btn-blk w-50 rounded px-4 py-2 text-center  text-3xl font-bold   transition"
+                  "btn-blk w-50  rounded px-4 py-2 text-center  text-3xl font-bold   transition"
                 )}
               >
                 {" "}
@@ -43,7 +43,10 @@ const ModaliteModalLG = () => {
               <ModalCloseButton />
             </ModalHeader>
             <ModalBody
-              className={clsx(pat.className, "m-0  w-full  gap-5 px-0 text-lg ")}
+              className={clsx(
+                pat.className,
+                "m-0  w-full  gap-5 px-0 text-lg "
+              )}
             >
               <div className="h-300 pb-5"></div>
 

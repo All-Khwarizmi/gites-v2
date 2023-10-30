@@ -4,19 +4,15 @@ import {
   ModalOverlay,
   ModalContent,
   ModalHeader,
-  ModalFooter,
   ModalBody,
   ModalCloseButton,
   useDisclosure,
-
 } from "@chakra-ui/react";
 import clsx from "clsx";
 import { cabin, pat } from "../pages/_app";
 
-import { extendTheme } from "@chakra-ui/react";
 import CarouselLG from "./CarouselLG";
 import Link from "next/link";
-
 
 const AnanasModalLG = ({ slides }: any) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -27,7 +23,7 @@ const AnanasModalLG = ({ slides }: any) => {
         onClick={onOpen}
         className={clsx(
           cabin.className,
-          "btn-blk w-50 rounded px-4 py-2 text-center  text-2xl font-bold   transition"
+          "btn-blk w-50 cursor-pointer rounded px-4 py-2 text-center  text-2xl font-bold  transition"
         )}
       >
         Gîte Ananas

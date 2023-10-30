@@ -23,7 +23,7 @@ const PalmierModal = ({ slides }: any) => {
         onClick={onOpen}
         className={clsx(
           cabin.className,
-          "btn-blk w-50 rounded px-4 py-2 text-center  text-2xl font-bold   transition"
+          "btn-blk w-50 cursor-pointer rounded px-4 py-2 text-center  text-2xl font-bold   transition"
         )}
       >
         Gîte Palmier

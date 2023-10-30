@@ -25,7 +25,7 @@ const AnanasModal = ({ slides }: any) => {
         onClick={onOpen}
         className={clsx(
           cabin.className,
-          "btn-blk w-50 rounded px-4 py-2 text-center  text-2xl font-bold   transition"
+          "btn-blk w-50 cursor-pointer rounded px-4 py-2 text-center  text-2xl font-bold   transition"
         )}
       >
         Gîte Ananas
@@ -72,7 +72,7 @@ const AnanasModal = ({ slides }: any) => {
                     </li>
                     <li>une terrasse avec un coin repas et un hamac</li>
                   </ul>
-                  <div className="roudend mt-2 bg-gray-200 text-center p-2">
+                  <div className="roudend mt-2 bg-gray-200 p-2 text-center">
                     <p>Parking</p>
                     <p>Wifi</p>
                     <p>Accès à la piscine et au barbecue</p>

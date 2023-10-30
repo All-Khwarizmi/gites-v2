@@ -20,7 +20,7 @@ const ModaliteModal = () => {
         onClick={onOpen}
         className={clsx(
           cabin.className,
-          "btn-blk w-50 rounded px-4 py-2 text-center  text-2xl font-bold   transition"
+          "btn-blk w-50 cursor-pointer rounded px-4 py-2 text-center  text-2xl font-bold   transition"
         )}
       >
         Modalités de réservation
@@ -34,7 +34,7 @@ const ModaliteModal = () => {
               <h3
                 className={clsx(
                   cabin.className,
-                  "btn-blk w-50 rounded px-4 pt-2 text-center  text-3xl font-bold   transition"
+                  "btn-blk w-50 cursor-pointer rounded px-4 pt-2 text-center  text-3xl font-bold   transition"
                 )}
               >
                 {" "}
@@ -52,7 +52,7 @@ const ModaliteModal = () => {
                     gîtes Palmier et Kawan. Nous contacter pour le supplément.
                   </p>
                   <br />
-                   <p className="px-2">
+                  <p className="px-2">
                     Premier dîner et petit-déjeuner offerts à partir d’une
                     semaine de location et pour les clients en provenance
                     directe de la métropole.{" "}
