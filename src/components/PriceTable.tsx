@@ -42,11 +42,11 @@ const PriceTable = () => {
                   <p>De 3 à 6 nuitées:</p>
                   <p>
                     {" "}
-                    - <strong>65€</strong> pour 2 personnes
+                    - <strong>70€</strong> pour 2 personnes
                   </p>
                   <p>
                     {" "}
-                    - <strong>90€</strong> pour 4 personnes
+                    - <strong>100€</strong> pour 4 personnes
                   </p>
                   <div className="grid-row grid place-items-center p-3">
                     <div className="border-black-500 w-2/3 border-t-2" />
@@ -61,11 +61,11 @@ const PriceTable = () => {
                   <p>De 3 à 6 nuitées:</p>
                   <p>
                     {" "}
-                    - <strong>70€</strong> pour 2 personnes
+                    - <strong>75€</strong> pour 2 personnes
                   </p>
                   <p className="pb-10">
                     {" "}
-                    - <strong>100€</strong> pour 4 personnes
+                    - <strong>110€</strong> pour 4 personnes
                   </p>
                 </div>
               </div>
@@ -99,11 +99,11 @@ const PriceTable = () => {
                 <p>De 3 à 6 nuitées:</p>
                 <p>
                   {" "}
-                  - <strong>75€</strong> pour 2 personnes
+                  - <strong>80€</strong> pour 2 personnes
                 </p>
                 <p>
                   {" "}
-                  - <strong>100€</strong> pour 4 personnes
+                  - <strong>110€</strong> pour 4 personnes
                 </p>
                 <div className="grid-row grid place-items-center p-3">
                   <div className="border-black-500 w-2/3 border-t-2" />
@@ -118,11 +118,11 @@ const PriceTable = () => {
                 <p>De 3 à 6 nuitées:</p>
                 <p>
                   {" "}
-                  - <strong>80€</strong> pour 2 personnes
+                  - <strong>85€</strong> pour 2 personnes
                 </p>
                 <p className="pb-12 ">
                   {" "}
-                  - <strong>120€</strong> pour 4 personnes
+                  - <strong>130€</strong> pour 4 personnes
                 </p>
               </div>
             </div>
@@ -154,11 +154,11 @@ const PriceTable = () => {
                   <p>De 3 à 6 nuitées:</p>
                   <p>
                     {" "}
-                    - <strong>90€</strong> pour 2 personnes
+                    - <strong>95€</strong> pour 2 personnes
                   </p>
                   <p>
                     {" "}
-                    - <strong>115€</strong> pour 4 personnes
+                    - <strong>125€</strong> pour 4 personnes
                   </p>
                   <div className="grid-row grid place-items-center p-3">
                     <div className="border-black-500 w-2/3 border-t-2" />
@@ -173,11 +173,11 @@ const PriceTable = () => {
                   <p>De 3 à 6 nuitées:</p>
                   <p>
                     {" "}
-                    - <strong>100€</strong> pour 2 personnes
+                    - <strong>105€</strong> pour 2 personnes
                   </p>
                   <p className="pb-12">
                     {" "}
-                    - <strong>140€</strong> pour 4 personnes
+                    - <strong>150€</strong> pour 4 personnes
                   </p>
                 </div>
               </div>
