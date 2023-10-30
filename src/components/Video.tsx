@@ -1,6 +1,4 @@
-import React from 'react'
-
-
+import React from "react";
 
 const Video = () => {
   return (
@@ -13,11 +11,11 @@ const Video = () => {
         id="myVideo"
         poster="./kawan.jpg"
         src={
-          "heroVideo.mp4"
+          "https://ik.imagekit.io/montresor/Mon_film_2.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=167610465801"
         }
       ></video>
     </section>
   );
-}
+};
 
-export default Video
+export default Video;
