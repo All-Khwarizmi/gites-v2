@@ -37,7 +37,7 @@ const PriceTable = () => {
                   <h2 className="text-3xl">Gîtes Ananas et Palmier</h2>
                   <div className="p-2"></div>
                   <strong> 420€</strong> / semaine
-                  <p> pour 4 personnes </p>
+                  <p> pour 1 à 4 personnes </p>
                   <div className="p-2"></div>
                   <p>De 3 à 6 nuitées:</p>
                   <p>
@@ -56,7 +56,7 @@ const PriceTable = () => {
                   <p>
                     <strong>440€</strong>/ semaine
                   </p>
-                  <p> pour 4 personnes </p>
+                  <p> pour 1 à 4 personnes </p>
                   <div className="p-2"></div>
                   <p>De 3 à 6 nuitées:</p>
                   <p>
@@ -94,7 +94,7 @@ const PriceTable = () => {
                 <h2 className="text-3xl">Gîtes Ananas et Palmier</h2>
                 <div className="p-2"></div>
                 <strong>470€</strong> / semaine
-                <p> pour 4 personnes </p>
+                <p> pour 1 à 4 personnes </p>
                 <div className="p-2"></div>
                 <p>De 3 à 6 nuitées:</p>
                 <p>
@@ -113,7 +113,7 @@ const PriceTable = () => {
                 <p>
                   <strong>500€</strong> / semaine
                 </p>
-                <p> pour 4 personnes </p>
+                <p> pour 1 à 4 personnes </p>
                 <div className="p-2"></div>
                 <p>De 3 à 6 nuitées:</p>
                 <p>
@@ -149,7 +149,7 @@ const PriceTable = () => {
                   <h2 className="text-3xl">Gîtes Ananas et Palmier</h2>
                   <div className="p-2"></div>
                   <strong>520€</strong> / semaine
-                  <p> pour 4 personnes </p>
+                  <p> pour 1 à 4 personnes </p>
                   <div className="p-2"></div>
                   <p>De 3 à 6 nuitées:</p>
                   <p>
@@ -168,7 +168,7 @@ const PriceTable = () => {
                   <p>
                     <strong>540€</strong> / semaine
                   </p>
-                  <p> pour 4 personnes </p>
+                  <p> pour 1 à 4 personnes </p>
                   <div className="p-2"></div>
                   <p>De 3 à 6 nuitées:</p>
                   <p>
