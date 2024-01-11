@@ -57,7 +57,6 @@ const ModaliteModalLG = () => {
                     gîtes Palmier et Kawan. Nous contacter pour le supplément.
                   </p>
                   <br />
-                  <br />
                   <ul className="list-disc px-10">
                     <li>Arrivée à partir de 16h - Départ jusqu’à 12h </li>
                     <li>Taxe de séjour : 0,80€ / personne (plus de 18 ans)</li>
