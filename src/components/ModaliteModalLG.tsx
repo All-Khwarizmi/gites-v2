@@ -57,11 +57,6 @@ const ModaliteModalLG = () => {
                     gîtes Palmier et Kawan. Nous contacter pour le supplément.
                   </p>
                   <br />
-                  <p className="px-2">
-                    Premier dîner et petit-déjeuner offerts à partir d’une
-                    semaine de location et pour les clients en provenance
-                    directe de la métropole.{" "}
-                  </p>
                   <br />
                   <ul className="list-disc px-10">
                     <li>Arrivée à partir de 16h - Départ jusqu’à 12h </li>
