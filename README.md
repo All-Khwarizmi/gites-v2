@@ -14,7 +14,7 @@ We used **@react-google-maps/api** that provides very simple bindings to the goo
 - [ NPM @react-google-maps/api](https://www.npmjs.com/package/@react-google-maps/api)
 - [ DOCS @react-google-maps/api](https://react-google-maps-api-docs.netlify.app/)
 
-### Fonts on NextJS 13
+### Fonts on Nex
 
 ### React hooks form & EmailJs
 
