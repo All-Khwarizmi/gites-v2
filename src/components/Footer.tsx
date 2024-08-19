@@ -21,7 +21,7 @@ export const SimpleFooter: React.FC = () => {
   return (
     <footer className="">
       <Flex
-        className="py-2"
+        className="pb-8"
         direction={["column", "column", "column"]}
         w="full"
         px={6}

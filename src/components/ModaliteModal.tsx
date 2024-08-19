@@ -15,7 +15,7 @@ const ModaliteModal = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <div className="flex place-items-center content-center justify-center rounded bg-black  transition delay-150 duration-300  ease-in-out hover:-translate-y-1 hover:scale-110 lg:hidden ">
+    <div className="flex place-items-center content-center justify-center rounded bg-black  transition delay-150 duration-300  ease-in-out hover:-translate-y-1 hover:scale-110 md:hidden ">
       <h3
         onClick={onOpen}
         className={clsx(
@@ -38,7 +38,7 @@ const ModaliteModal = () => {
                 )}
               >
                 {" "}
-                Modalités de reservation
+                Modalités de réservation
               </h3>
               <ModalCloseButton />
             </ModalHeader>
@@ -48,13 +48,14 @@ const ModaliteModal = () => {
               <div className="">
                 <div className="pb-5">
                   <p className="px-2">
-                    Possibilité d’une 5e personne (enfant), uniquement dans les
-                    gîtes Palmier et Kawan. Nous contacter pour le supplément.
+                    Possibilité d’une 5ème personne (enfant), uniquement dans
+                    les gîtes Palmier et Kawan. Nous contacter pour le
+                    supplément.
                   </p>
                   <br />
                   <br />
                   <ul className="list-disc px-10">
-                    <li>Arrivée à partir de 16h - Départ jusqu’à 12h </li>
+                    <li>Arrivée à partir de 16h - Départ de 8h à 11h </li>
                     <li>Taxe de séjour : 0,80€ / personne (plus de 18 ans)</li>
                     <li> 30% d’acompte</li>
                     <li>Caution de 300€</li>

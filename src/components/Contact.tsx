@@ -39,7 +39,8 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          if (result.text === "OK") return window.alert("Votre message a bien été envoyé")
+          if (result.text === "OK")
+            return window.alert("Votre message a bien été envoyé");
         },
         (error) => {
           console.log(error.text);
@@ -62,7 +63,7 @@ const Contact = () => {
         </div>
       </div>
       {/* 1st div container */}
-      <div className=" grid  place-items-center gap-5  lg:flex ">
+      <div className=" grid  place-items-center gap-5  lg:flex mb-8 ">
         <div></div>
         {/* Grid div */}
         <div className="grid w-full place-items-center lg:w-[40%] lg:place-items-center">
@@ -106,14 +107,14 @@ const Contact = () => {
               <div className=" hidden text-center text-xl lg:block 2xl:hidden ">
                 aubert.celest @wanadoo.fr
               </div>
-              <div className=" lg:hidden text-center text-xl 2xl:block ">
+              <div className=" text-center text-xl lg:hidden 2xl:block ">
                 aubert.celest@wanadoo.fr
               </div>
             </div>
           </div>
         </div>
         {/* Form div */}
-        <div className="w-[80%] gap-3 bg-white lg:m-0 lg:w-[50%]  ">
+        <div className="mb-8 w-[80%] gap-3 bg-white lg:m-0 lg:w-[50%] ">
           <form
             ref={form}
             className="flex w-full flex-col rounded p-5 lg:py-10 lg:px-28"
@@ -160,6 +161,11 @@ const Contact = () => {
                 Envoyer
               </button>
             </h3>
+            <section className="py-4 text-xs">
+              Vous avez la possibilité de vous inscrire sur la liste
+              d&apos;opposition au démarchage téléphonique (notamment via le
+              site www.bloctel.gouv.fr)
+            </section>
           </form>
         </div>
       </div>

@@ -183,9 +183,11 @@ const PriceTable = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="grid place-items-center pt-12">
           <ModaliteModal />
         </div>
-        <div className="grid place-items-center pt-10">
+        <div className="grid place-items-center pt-12">
           <ModaliteModalLG />
         </div>
       </div>

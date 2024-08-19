@@ -91,7 +91,6 @@ const MainPage = () => {
     {
       img: "kawan/10.jpg",
     },
-    
   ];
 
   const slides = {
@@ -123,11 +122,13 @@ const MainPage = () => {
         <section id="section-4" className="section-3 relative">
           <PriceTable />
         </section>
-        <section id="section-5" className="section-4 relative pb-5">
+        <section id="section-5" className="section-4 relative pb-8 ">
           <Contact />
         </section>
-        
-        <SimpleFooter />
+        <div className="py-4"></div>
+        <section>
+          <SimpleFooter />
+        </section>
       </main>
     </>
   );
