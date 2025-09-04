@@ -51,6 +51,12 @@ This is a Next.js 13 vacation rental website for "Gîtes Mon Trésor" built with
 
 - This is a maintenance project for an existing client
 - The site uses both Chakra UI and Tailwind CSS (mixed approach)
-- Maps component currently exposes Google API key publicly
+- Maps component now uses iframe embed (was Google API key)
 - EmailJS handles contact form submissions
 - Images are served from ImageKit.io CDN
+
+## Commit Guidelines
+
+- **Never include Claude branding in commits** (no "Generated with Claude Code" or "Co-Authored-By: Claude")
+- Use conventional commit format: `type: description`
+- Keep commit messages clean and professional
