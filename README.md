@@ -1,45 +1,50 @@
-# Gîtes Mon Trésor web site update
+# Gîtes Mon Trésor
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+Website for vacation rental properties in Guadeloupe.
 
-## What's new? 
+## Tech Stack
 
-### Maps API
+- **Framework**: Next.js 13 with TypeScript
+- **UI**: Chakra UI + Tailwind CSS  
+- **Forms**: React Hook Form + EmailJS
+- **Images**: ImageKit.io CDN
+- **Maps**: Google Maps Embed (iframe)
 
-Most part of static websites does not support maps integration and since GoogleApi normally does not work on client's side, we had to find a workaround.   
-    
-We used **@react-google-maps/api** that provides very simple bindings to the google maps api and lets you use it in your app as React components.
+## Development
 
-- [Google API](https://developers.google.com/maps/documentation/)
-- [ NPM @react-google-maps/api](https://www.npmjs.com/package/@react-google-maps/api)
-- [ DOCS @react-google-maps/api](https://react-google-maps-api-docs.netlify.app/)
+```bash
+# Install dependencies
+npm install
 
-### Fonts on Nex
+# Start development server
+npm run dev
 
-### React hooks form & EmailJs
+# Build for production
+npm run build
 
-- [React Hook Form](https://react-hook-form.com)
-- [EmailJS](https://www.emailjs.com)
+# Lint code
+npm run lint
+```
 
-### Online reservation & payment 
+## Features
 
-- [Stripe Docs](https://stripe.com/docs/development/quickstart)
-- [React booking form API](https://www.npmjs.com/package/react-booking-form)
-- [Tutorial React booking form API](https://dev.to/maxsym/react-package-to-create-booking-forms-introduction-5dlj)
+- **Responsive Design**: Mobile-first approach with Tailwind CSS
+- **Contact Form**: EmailJS integration for inquiries
+- **Interactive Maps**: Embedded Google Maps showing property location
+- **Price Tables**: Seasonal pricing for different rental periods
+- **Image Gallery**: Optimized images via ImageKit.io
+- **Static Export**: Optimized for static hosting
 
-### Get window on SSR
+## Project Structure
 
-### Video integration
+- `src/components/` - React components
+- `src/pages/` - Next.js pages
+- `src/styles/` - Global styles
+- `public/` - Static assets
 
-### Performance
+## Recent Updates
 
-### Messenger Link to conversation
-
-### Deployment
-
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+- Updated pricing (+10€ on weekly rates)
+- Replaced Google Maps API with secure iframe embed
+- Added comprehensive documentation (CLAUDE.md)
 
