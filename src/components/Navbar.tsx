@@ -23,7 +23,7 @@ function MobileNav({ open, setOpen }: any) {
           <div className="relative h-auto">
             <img
               className="w-44 hover:w-48"
-              src="/IMG_0318.JPG"
+              src="/logo-new.jpeg"
               alt="Gîtes Mon Tresor Logo"
               width={500}
               height={500}
@@ -167,7 +167,7 @@ export default function Navbar({ position }: any) {
         <Link className="text-3xl font-semibold" href="/">
           <img
             className="w-44 hover:w-48"
-            src="/IMG_0318.JPG"
+            src="/logo-new.jpeg"
             alt="Gîtes Mon Tresor Logo"
             width={500}
             height={500}
