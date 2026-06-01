@@ -40,3 +40,7 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+.fusion/
+.atl/
+# git worktrees
+.worktrees/
