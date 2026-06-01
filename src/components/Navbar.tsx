@@ -1,5 +1,6 @@
 import { useEffect, useState} from "react";
 import Link from "next/link";
+import Image from "next/image";
 import clsx from "clsx";
 import { cabin } from "../pages/_app";
 import PartenariatsModal from "./PartenariatsModal";
@@ -19,19 +20,15 @@ function MobileNav({ open, setOpen }: any) {
       <div className="flex h-20  items-center justify-center bg-white drop-shadow-md filter">
         {" "}
         {/*logo container*/}
-        <Link className=" h-auto text-2xl font-semibold" href="/">
-          <div className="relative h-auto">
-            <img
-              className="w-44 hover:w-48"
-              src="/logo-new.jpeg"
-              alt="Gîtes Mon Tresor Logo"
-              width={500}
-              height={500}
-              sizes="(max-width: 768px) 100vw,
-              (max-width: 1200px) 50vw,
-              33vw"
-            />
-          </div>
+        <Link className="flex items-center" href="/" aria-label="Accueil — Gîtes Mon Trésor">
+          <Image
+            className="h-16 w-16 object-contain"
+            src="/logo.png"
+            alt="Gîtes Mon Trésor"
+            width={64}
+            height={64}
+            priority
+          />
         </Link>
       </div>
       <div className="ml-4 flex flex-col items-center">
@@ -164,18 +161,14 @@ export default function Navbar({ position }: any) {
     >
       <MobileNav open={open} setOpen={setOpen} />
       <div className="flex w-3/12 items-center">
-        <Link className="text-3xl font-semibold" href="/">
-          <img
-            className="w-44 hover:w-48"
-            src="/logo-new.jpeg"
-            alt="Gîtes Mon Tresor Logo"
-            width={500}
-            height={500}
-            
-            
-            sizes="(max-width: 768px) 100vw,
-              (max-width: 1200px) 50vw,
-              33vw"
+        <Link className="flex items-center" href="/" aria-label="Accueil — Gîtes Mon Trésor">
+          <Image
+            className="h-16 w-16 object-contain transition-transform duration-300 hover:scale-105"
+            src="/logo.png"
+            alt="Gîtes Mon Trésor"
+            width={64}
+            height={64}
+            priority
           />
         </Link>
       </div>
