@@ -15,6 +15,9 @@ const config = {
     defaultLocale: "en",
   }, */
   images: {
+    // Required for `next export` (static site) — disables the on-demand
+    // optimization server. Assets are pre-optimized at build/commit time.
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
